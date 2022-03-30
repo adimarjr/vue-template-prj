@@ -1,0 +1,12 @@
+@import './base.scss';
+
+$header-height: 56px;
+
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: calc(100vh - $header-height);
+    overflow-x: auto;
+    overflow-y: hidden;
+}

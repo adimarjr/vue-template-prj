@@ -1,0 +1,12 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+html {
+    height: 100%;
+    height: -webkit-fill-available;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
